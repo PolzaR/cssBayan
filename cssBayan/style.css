@@ -31,6 +31,10 @@ label {
 
 }
 
+input[type=radio] {
+    display: none;
+}
+
 input:checked~.content_container {
     display: block;
     text-align: center;
